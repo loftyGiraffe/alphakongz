@@ -69,11 +69,11 @@ export default function Home() {
                         letterSpacing: "8px",
                     }}
                 >
-
+                   ALPHA KONGS CLUB
                 </div>
                 <div
                     style={{
-                        marginTop: "450px",
+                        marginTop: "60px",
                         textAlign: "center",
                         fontWeight: "400",
                         fontSize: "36px",
@@ -81,7 +81,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    BONUS SALE
+                    Raffle Winner #951
                 </div>
             </div>
             <div
